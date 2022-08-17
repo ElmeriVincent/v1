@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,jsx}",
-    "./components/**/*.{js,jsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     colors: {
@@ -11,7 +11,8 @@ module.exports = {
       black: "#000",
       nordpolarnight: "#2e3440",
       nordfrostlight: "#8fbcbb",
-      nordfrostice: "#81a1c1"
+      nordfrostice: "#88c0d0",
+      nordauroraorange: "#d08770"
     },
     fontFamily: {
       NTR: ['NTR'],
