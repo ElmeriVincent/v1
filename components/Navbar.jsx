@@ -10,7 +10,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className='flex items-center flex-wrap bg-green-400 p-3 '>
+            <nav className='sticky flex items-center flex-wrap p-3 bg-nordpolarnight drop-shadow-sm top-0 z-50'>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4 lg:ml-12 text-white'>
                         <p>Logo</p>

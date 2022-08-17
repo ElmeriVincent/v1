@@ -12,7 +12,9 @@ module.exports = {
       nordpolarnight: "#2e3440",
       nordfrostlight: "#8fbcbb",
       nordfrostice: "#88c0d0",
-      nordauroraorange: "#d08770"
+      nordauroraorange: "#d08770",
+      nordaurorapink: "#b48ead",
+      nordaurorared: "#bf616a"
     },
     fontFamily: {
       NTR: ['NTR'],
