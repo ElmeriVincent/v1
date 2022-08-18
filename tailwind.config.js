@@ -10,6 +10,7 @@ module.exports = {
       white: "#fff",
       black: "#000",
       nordpolarnight: "#2e3440",
+      nordpolarevening: "#3b4252",
       nordfrostlight: "#8fbcbb",
       nordfrostice: "#88c0d0",
       nordauroraorange: "#d08770",
