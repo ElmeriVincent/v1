@@ -38,17 +38,17 @@ export const Navbar = () => {
 
                 <div className={`${active ? '' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                     <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:mr-12 lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
-                        <Link href='#about-section'>
+                        <Link href='#about'>
                             <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
                                 About
                             </a>
                         </Link>
-                        <Link href='#projects-section'>
+                        <Link href='#projects'>
                             <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
                                 Projects
                             </a>
                         </Link>
-                        <Link href='#contact-section'>
+                        <Link href='#contact'>
                             <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
                                 Contact
                             </a>
