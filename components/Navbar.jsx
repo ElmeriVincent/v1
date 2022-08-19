@@ -1,23 +1,27 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
+import { useRouter } from 'next/router'
+
+import logo from '../public/images/logo.png'
 
 export const Navbar = () => {
-    const [active, setActive] = useState(false);
 
-    const handleClick = () => {
-        setActive(!active);
-    };
+    const [active, setActive] = useState(false);
+    const router = useRouter();
+
+    const handleClick = () => { setActive(!active); };
 
     return (
         <>
             <nav className='sticky flex items-center flex-wrap p-3 bg-nordpolarnight drop-shadow-sm top-0 z-50'>
-                <Link href='/'>
-                    <a className='inline-flex items-center p-2 mr-4 lg:ml-12 text-white'>
-                        <p>Logo</p>
-                    </a>
-                </Link>
+                <button type='button'
+                    className='inline-flex items-center p-2 mr-4 lg:ml-12 text-white cursor-pointer w-14 hover:animate-waving-hand'
+                    onClick={() => router.reload()}>
+                    <Image src={logo} height={0} width={0} alt="icon" />
+                </button>
                 <button
-                    className=' inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-nordfrostlight ml-auto outline-none'
+                    className='inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-nordfrostlight ml-auto outline-none'
                     onClick={handleClick}
                 >
                     <svg

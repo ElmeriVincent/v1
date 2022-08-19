@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Welcome() {
     return (
-        <div>
-            <div className="Welcome">
-                <div className='flex justify-center items-center h-screen'>
-                    <div className='flex flex-col mt-10 mx-10'>
+        <div className="Welcome">
+            <div className='flex justify-center items-center h-screen'>
+                <div className='flex flex-col mx-10'>
+                    <div className="whoami">
                         <p className='font-NTR text-xl lg:text-xl text-nordfrostlight text-left'>
                             Software Developer
                         </p>
