@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
-import logo from '../public/images/logo.png'
+import logo from '../public/images/logo.png';
+
 
 export const Navbar = () => {
 
@@ -21,7 +22,7 @@ export const Navbar = () => {
                     <Image src={logo} height={0} width={0} alt="icon" />
                 </button>
                 <button
-                    className='inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-nordfrostlight ml-auto outline-none'
+                    className='inline-flex p-3 rounded lg:hidden text-nordfrostlight ml-auto outline-none'
                     onClick={handleClick}
                 >
                     <svg
@@ -43,25 +44,33 @@ export const Navbar = () => {
                 <div className={`${active ? '' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                     <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:mr-12 lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
                         <Link href='#about'>
-                            <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                About
-                            </a>
+                            <button onClick={handleClick} className="mt-2">
+                                <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
+                                    About
+                                </a>
+                            </button>
                         </Link>
                         <Link href='#projects'>
-                            <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                Projects
-                            </a>
+                            <button onClick={handleClick} className="mt-2">
+                                <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
+                                    Projects
+                                </a>
+                            </button>
                         </Link>
                         <Link href='#contact'>
-                            <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                Contact
-                            </a>
+                            <button onClick={handleClick} className="mt-2">
+                                <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
+                                    Contact
+                                </a>
+                            </button>
                         </Link>
-                        <Link href='/'>
-                            <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                <p className="border-2 px-2 border-nordfrostlight">Resume</p>
-                            </a>
-                        </Link>
+                        <a href="/resume.pdf" rel="nooperner noreferrer" target="_blank">
+                            <button onClick={handleClick} className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
+                                <div className="border-2 px-2 border-nordfrostlight hover:bg-nordpolarevening ">
+                                    Resume
+                                </div>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </nav>
