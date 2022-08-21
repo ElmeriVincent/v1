@@ -11,9 +11,9 @@ export default function Buukbox() {
     return (
         <div className="buukbox-card">
             <div className="mt-8 mx-4">
-                <div className="border rounded border-transparent bg-nordpolarevening p-2">
+                <div className="border rounded border-transparent bg-nordpolarevening p-2 sm:w-96">
                     <div className="card-content">
-                        <div className="w-96 rounded cursor-pointer">
+                        <div className="rounded cursor-pointer">
                             <a href={"https://buukbox.vercel.app/"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={buukboxCover}
                                     className="rounded bg-blend-overlay hover:mix-blend-normal hover:duration-300 opacity-80 hover:opacity-100"

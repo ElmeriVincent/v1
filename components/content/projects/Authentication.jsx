@@ -10,12 +10,12 @@ export default function Authentication() {
     return (
         <div className="authentication-card">
             <div className="mt-8 mx-4">
-                <div className="border rounded border-transparent bg-nordpolarevening p-2">
+                <div className="border rounded border-transparent bg-nordpolarevening p-2 sm:w-96">
                     <div className="card-content">
-                        <div className="w-96 rounded cursor-pointer">
+                        <div className="rounded cursor-pointer">
                             <a href={"https://github.com/ElmeriVincent/github-auth-temp"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={authtemp}
-                                    className="rounded bg-blend-overlay hover:mix-blend-normal hover:duration-300 opacity-80 hover:opacity-100"
+                                    className="object-cover rounded bg-blend-overlay hover:mix-blend-normal hover:duration-300 opacity-80 hover:opacity-100"
                                     alt="Buukbox website cover image."
                                     width={0} height={0} layout="responsive" />
                             </a>
