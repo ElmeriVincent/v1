@@ -15,7 +15,7 @@ export default function Contra() {
                         <div className="rounded cursor-pointer">
                             <a href={"https://contra-topaz.vercel.app/"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={contra}
-                                    className="rounded bg-blend-overlay hover:mix-blend-normal hover:duration-300 opacity-80 hover:opacity-100"
+                                    className="rounded xl:bg-blend-overlay xl:hover:mix-blend-normal xl:hover:duration-300 opacity-100 xl:opacity-80 xl:hover:opacity-100"
                                     alt="Buukbox website cover image."
                                     width={0} height={0} />
                             </a>
@@ -26,7 +26,7 @@ export default function Contra() {
                             <span className="text-xl font-NTR mx-2">| Metamask | Blockchain</span>
                         </div>
                         <div>
-                            <p className="text-white text-lg font-NTR text-center capitalize">Lumilautaile Pienen Planeetan Halki</p>
+                            <p className="text-white text-lg font-NTR text-center capitalize">Maksa kavereille ethereumilla (Ropstenverkko)</p>
                         </div>
                     </div>
                 </div>

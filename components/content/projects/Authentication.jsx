@@ -15,7 +15,7 @@ export default function Authentication() {
                         <div className="rounded cursor-pointer">
                             <a href={"https://github.com/ElmeriVincent/github-auth-temp"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={authtemp}
-                                    className="object-cover rounded bg-blend-overlay hover:mix-blend-normal hover:duration-300 opacity-80 hover:opacity-100"
+                                    className="rounded xl:bg-blend-overlay xl:hover:mix-blend-normal xl:hover:duration-300 opacity-100 xl:opacity-80 xl:hover:opacity-100"
                                     alt="Buukbox website cover image."
                                     width={0} height={0} />
                             </a>
