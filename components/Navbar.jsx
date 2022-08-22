@@ -46,28 +46,28 @@ export const Navbar = () => {
                         <Link href='#about'>
                             <button onClick={handleClick} className="mt-2">
                                 <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                    About
+                                    Minusta
                                 </a>
                             </button>
                         </Link>
                         <Link href='#projects'>
                             <button onClick={handleClick} className="mt-2">
                                 <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                    Projects
+                                    Projektit
                                 </a>
                             </button>
                         </Link>
                         <Link href='#contact'>
                             <button onClick={handleClick} className="mt-2">
                                 <a className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                    Contact
+                                    Yhteydenotto
                                 </a>
                             </button>
                         </Link>
                         <a href="/resume.pdf" rel="nooperner noreferrer" target="_blank">
                             <button onClick={handleClick} className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
                                 <div className="border-2 px-2 border-nordfrostlight hover:bg-nordpolarevening ">
-                                    Resume
+                                    Ansioluettelo
                                 </div>
                             </button>
                         </a>

@@ -17,17 +17,16 @@ export default function Authentication() {
                                 <Image src={authtemp}
                                     className="object-cover rounded bg-blend-overlay hover:mix-blend-normal hover:duration-300 opacity-80 hover:opacity-100"
                                     alt="Buukbox website cover image."
-                                    width={0} height={0} layout="responsive" />
+                                    width={0} height={0} />
                             </a>
                         </div>
                         <div className="flex justify-center mt-2 text-nordfrostlight font-NTR text-2xl">
                             <TbBrandNextjs />
                             <SiTailwindcss />
-                            <span className="text-xl font-NTR mx-2">| NextAuth</span>
-                            <span className="text-xl font-NTR mx-2">| Vercel</span>
+                            <span className="text-xl font-NTR mx-2">| NextAuth | Vercel</span>
                         </div>
                         <div>
-                            <p className="text-white text-lg font-NTR text-center">Github Authentication Template For Future Auths!</p>
+                            <p className="text-white text-lg font-NTR text-center capitalize">Github Autentikaatio Mallipohja</p>
                         </div>
                     </div>
                 </div>

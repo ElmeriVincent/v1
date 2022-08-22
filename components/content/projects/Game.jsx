@@ -17,17 +17,16 @@ export default function Game() {
                                 <Image src={play}
                                     className="rounded bg-blend-overlay hover:mix-blend-normal hover:duration-300 opacity-80 hover:opacity-100"
                                     alt="Buukbox website cover image."
-                                    width={0} height={0} layout="responsive" />
+                                    width={0} height={0} />
                             </a>
                         </div>
                         <div className="flex justify-center mt-2 text-nordfrostlight font-NTR text-2xl">
                             <FaUnity />
                             <TbBrandVisualStudio />
-                            <span className="text-xl font-NTR mx-2">| Video Game</span>
-                            <span className="text-xl font-NTR mx-2">| C#</span>
+                            <span className="text-xl font-NTR mx-2">| Tietokonepeli | C#</span>
                         </div>
                         <div>
-                            <p className="text-white text-lg font-NTR text-center">Small Snowboarding Planet Game</p>
+                            <p className="text-white text-lg font-NTR text-center capitalize">Lumilautaile Pienen Planeetan Halki</p>
                         </div>
                     </div>
                 </div>

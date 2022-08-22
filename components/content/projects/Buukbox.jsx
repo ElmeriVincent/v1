@@ -24,11 +24,10 @@ export default function Buukbox() {
                         <div className="flex justify-center mt-2 text-nordfrostlight font-NTR text-2xl">
                             <DiReact />
                             <SiTailwindcss />
-                            <span className="text-xl font-NTR mx-2">| Google Books API</span>
-                            <span className="text-xl font-NTR mx-2">| Vercel</span>
+                            <span className="text-xl font-NTR mx-2">| Google Books API | Vercel</span>
                         </div>
                         <div>
-                            <p className="text-white text-lg font-NTR text-center">Application for searching and reading books</p>
+                            <p className="text-white text-lg font-NTR text-center capitalize">E-kirjojen Hakeminen & Lukeminen.</p>
                         </div>
                     </div>
                 </div>
