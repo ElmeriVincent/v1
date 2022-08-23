@@ -64,13 +64,6 @@ export const Navbar = () => {
                                 </a>
                             </button>
                         </Link>
-                        <a href="/resume.pdf" rel="nooperner noreferrer" target="_blank">
-                            <button onClick={handleClick} className='lg:inline-flex lg:w-auto w-full lg:px-6 px-2 py-2 rounded text-white font-NTR text-lg items-center justify-center'>
-                                <div className="border-2 px-2 border-nordfrostlight hover:bg-nordpolarevening ">
-                                    Ansioluettelo
-                                </div>
-                            </button>
-                        </a>
                     </div>
                 </div>
             </nav>
