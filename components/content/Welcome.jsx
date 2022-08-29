@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Welcome() {
     return (
-        <div className="Welcome">
+        <section id="Welcome">
             <div className='flex justify-center items-center h-screen'>
                 <div className='flex flex-col mx-10'>
                     <div className="whoami">
@@ -18,6 +18,6 @@ export default function Welcome() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

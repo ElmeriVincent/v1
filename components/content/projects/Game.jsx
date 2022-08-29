@@ -8,7 +8,7 @@ import play from '../../../public/images/play.jpg'
 
 export default function Game() {
     return (
-        <div className="authentication-card">
+        <div className="game-card">
             <div className="mt-8 mx-4">
                 <div className="border rounded border-transparent bg-nordpolarevening p-2 sm:w-96">
                     <div className="card-content">

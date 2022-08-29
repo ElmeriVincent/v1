@@ -8,7 +8,7 @@ import contra from '../../../public/images/contra.png'
 
 export default function Contra() {
     return (
-        <div className="authentication-card">
+        <div className="contra-card">
             <div className="mt-8 mx-4">
                 <div className="border rounded border-transparent bg-nordpolarevening p-2 sm:w-96">
                     <div className="card-content">
