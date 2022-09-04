@@ -12,9 +12,9 @@
 </h4>
 
 <h3 align="center">elmerivincent.com</h3>
-<p align="center">Check out my portofolio at https://www.elmerivincent.com/</p>
+<p align="center">Check out my portofolio at https://elmerivincent.com/</p>
 
-![Screenshot from 2022-08-21 20-15-17](https://user-images.githubusercontent.com/77973084/185802968-925135bb-9ae5-460f-920d-c69c4f4b99a3.png)
+![desktop](https://user-images.githubusercontent.com/77973084/188334694-906980c3-994c-4485-b8b8-030d8f2f3993.png)
 
 ##
 <h1>🧰 Installation & Setup</h1>
@@ -30,7 +30,8 @@
 `npm run start`
 
 
-<h1>Nord Theme</h1>
+<h1>Mostly Used Colors - Nord Theme</h1>
+https://www.nordtheme.com/
 
 | Color | Hex |
 | ----------- | ----------- |
@@ -41,5 +42,3 @@
 | Aurora Red | #bf616a |
 | Aurora Orange | #d08770 |
 | Aurora Pink | #b48ead |
-
-https://www.nordtheme.com/
