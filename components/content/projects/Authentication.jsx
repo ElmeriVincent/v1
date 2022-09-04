@@ -10,23 +10,23 @@ export default function Authentication() {
     return (
         <div className="authentication-card">
             <div className="mt-8 mx-4">
-                <div className="border rounded border-transparent bg-nordpolarevening p-2 sm:w-96">
+                <div className="border rounded border-transparent bg-nordpolarnight p-2 sm:w-96">
                     <div className="card-content">
                         <div className="rounded cursor-pointer">
                             <a href={"https://github.com/ElmeriVincent/github-auth-temp"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={authtemp}
-                                    className="rounded xl:bg-blend-overlay xl:hover:mix-blend-normal xl:hover:duration-300 opacity-100 xl:opacity-80 xl:hover:opacity-100"
+                                    className="rounded"
                                     alt="Buukbox website cover image."
                                     width={0} height={0} />
                             </a>
                         </div>
-                        <div className="flex justify-center mt-2 text-nordfrostlight font-NTR text-2xl">
+                        <div className="flex justify-center mt-2 text-nordfrostlight text-2xl">
                             <TbBrandNextjs />
                             <SiTailwindcss />
-                            <span className="text-xl font-NTR mx-2">| NextAuth | Vercel</span>
+                            <span className="text-lg font-Poppins mx-2">| NextAuth | Vercel</span>
                         </div>
                         <div>
-                            <p className="text-white text-lg font-NTR text-center capitalize">Github Autentikaatio Mallipohja</p>
+                            <p className="text-white text-md font-Poppins text-center capitalize">Github authentication template</p>
                         </div>
                     </div>
                 </div>
