@@ -1,4 +1,3 @@
-import Welcome from '../components/content/Welcome.jsx'
 import About from '../components/content/About.jsx'
 import Projects from '../components/content/Projects.jsx'
 import { Navbar } from '../components/Navbar.jsx'
@@ -8,7 +7,6 @@ export default function Main() {
   return (
     <>
       <Navbar />
-      <Welcome />
       <About />
       <Projects />
       <Footer />

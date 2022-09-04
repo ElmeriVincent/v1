@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import '../styles/globals.css'
 
-import Layout from '../components/Layout'
-
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -15,4 +13,3 @@ export default function MyApp({ Component, pageProps }) {
     </>
   )
 }
-
