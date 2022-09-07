@@ -16,7 +16,7 @@ export default function Authentication() {
                             <a href={"https://github.com/ElmeriVincent/github-auth-temp"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={authtemp}
                                     className="rounded"
-                                    alt="Buukbox website cover image."
+                                    alt="authentication-project"
                                     width={0} height={0} />
                             </a>
                         </div>

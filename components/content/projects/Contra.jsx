@@ -16,7 +16,7 @@ export default function Contra() {
                             <a href={"https://contra-topaz.vercel.app/"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={contra}
                                     className="rounded"
-                                    alt="Buukbox website cover image."
+                                    alt="Ethereum project."
                                     width={0} height={0} />
                             </a>
                         </div>

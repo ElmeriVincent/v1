@@ -16,7 +16,7 @@ export default function Game() {
                             <a href={"https://devevk.itch.io/cinderella-mountains"} rel="nooperner noreferrer" target="_blank">
                                 <Image src={game}
                                     className="rounded"
-                                    alt="Buukbox website cover image."
+                                    alt="Videogame project"
                                     width={0} height={0} />
                             </a>
                         </div>
