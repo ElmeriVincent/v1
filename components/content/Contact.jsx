@@ -1,5 +1,5 @@
 import Image from "next/image"
-import profile from "../../public/images/profile.jpg"
+import profile from "../../public/images/profile.png"
 
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
@@ -20,8 +20,8 @@ export default function Contact() {
                             or just <br /> wanting to discuss about tech.
                         </p>
                         <div className="flex items-center justify-center m-2">
-                            <div className="relative border border-nordpolarevening  rounded-full w-12 h-12">
-                                <Image className="rounded-full" src={profile} alt="profile-image-linkedin" width={0} height={0} />
+                            <div className="relative border border-nordpolarevening  rounded-full w-16 h-16">
+                                <Image className="rounded-full" src={profile} alt="profile-image-linkedin" width={100} height={100} />
                                 <span className="absolute bottom-0 left-8 transform translate-y-1/4 w-3.5 h-3.5 bg-online border-2 border-nordpolarevening rounded-full"></span>
                             </div>
                             <div className="mx-2">
