@@ -9,10 +9,11 @@ export default function Welcome() {
                         <h1 className="text-white lg:text-6xl md:text-4xl text-2xl uppercase">Elmeri Keitaanranta</h1>
                         <p className="text-white lg:text-3xl md:text-2xl text-xl uppercase">Full-stack developer</p>
                     </div>
-                    <div className="mt-2">
-                        <p className="text-white lg:text-lg md:text-lg text-md mt-2 lg:text-left text-center">
-                            Dev from the Finnish archipelago. <br />
-                            Mostly build stuff for the web and explore nature.
+                    <div className="mt-4 mx-2">
+                        <p className="text-white lg:text-lg md:text-lg text-md lg:text-left text-center">
+                            I am a developer from the Finnish archipelago. I
+                            Recently graduated and I've Been building stuff for almost 3 years. 
+                            I write silly things on <a href='https://dev.to/elmerivincent' className="underline decoration-2 decoration-nordauroraorange">Dev.to</a> and build broken hello worlds daily ⚒️. 
                         </p>
                     </div>
                 </div>

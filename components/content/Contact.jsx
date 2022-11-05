@@ -15,7 +15,6 @@ export default function Contact() {
                     </h1>
                     <div className="lg:m-4 text-white font-Poppins text-center mx-2 my-2">
                         <p className="lg:text-lg sm:text-base text-sm">
-                            Currently studying but also available for work. <br />
                             Contact me if you are interested
                             or just <br /> wanting to discuss about tech.
                         </p>
